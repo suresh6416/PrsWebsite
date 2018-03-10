@@ -1,0 +1,117 @@
+
+/* ==================================================================
+   22.0 color pink styles
+================================================================== */
+/*** home Three bg ***/
+.bg-first-block {
+    background-image: url(../images/bgimage/home3-first-bg.png);
+}
+.btn-white-shadow {
+  color: #8764f9;
+  box-shadow: 1.5px 2.598px 20px 0px rgba( 135, 100, 249, 0.2) !important;
+}
+.intro-section .intro-item:hover {
+  box-shadow: 1.5px 2.598px 25px 0px rgba( 135, 100, 249, 0.1);
+}
+.blog-info a,
+.intro-section .intro-item a,
+.team-details .team-author-details a {
+  color: #8764f9;
+}
+.blog-info a:after,
+.intro-section .intro-item a:after,
+.team-details .team-author-details a:after {
+    background: url(../images/color-pink/icon/4.png);
+}
+.section-title .title:after,
+.featured-details .subtitle:after {
+    background: #8764f9;
+}
+.video-bg {
+  background-image: url('../images/color-pink/3.png') !important;
+  background-repeat: no-repeat;
+}
+.video-bg .btn-video {
+  background-image: -moz-linear-gradient( 0deg, rgb(243,109,181) 0%, rgb(189,105,215) 54%, rgb(135,100,249) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(243,109,181) 0%, rgb(189,105,215) 54%, rgb(135,100,249) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(243,109,181) 0%, rgb(189,105,215) 54%, rgb(135,100,249) 100%);
+}
+.btn-video::before {
+  background-image: -moz-linear-gradient( 0deg, rgb(243,109,181) 0%, rgb(189,105,215) 54%, rgb(135,100,249) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(243,109,181) 0%, rgb(189,105,215) 54%, rgb(135,100,249) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(243,109,181) 0%, rgb(189,105,215) 54%, rgb(135,100,249) 100%);
+  opacity: 0.3;
+}
+.footer-section .section-title-3 .title:after {
+  background: #8764f9;
+}
+.page-title,
+.swiper-pagination-bullet,
+.team-section .team-details,
+.team-section .team-details:before,
+.screenshot-color-pink .swiper-pagination-bullet {
+  background-image: -moz-linear-gradient( 0deg, rgb(243,109,181) 0%, rgb(189,105,215) 54%, rgb(135,100,249) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(243,109,181) 0%, rgb(189,105,215) 54%, rgb(135,100,249) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(243,109,181) 0%, rgb(189,105,215) 54%, rgb(135,100,249) 100%);
+}
+.bg-app {
+  background-image: url('../images/color-pink/11.png');
+}
+.pricing-wrap-1:before,
+.pricing-wrap-1 .pricing-title {
+  background-image: -moz-linear-gradient( 0deg, rgb(254,204,231) 0%, rgb(195,152,240) 54%, rgb(135,100,249) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(254,204,231) 0%, rgb(195,152,240) 54%, rgb(135,100,249) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(254,204,231) 0%, rgb(195,152,240) 54%, rgb(135,100,249) 100%);
+}
+.pricing-wrap-2:before,
+.pricing-wrap-2 .pricing-title {
+  background-image: -moz-linear-gradient( 0deg, rgb(223,255,254) 0%, rgb(131,196,251) 45%, rgb(39,137,247) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(223,255,254) 0%, rgb(131,196,251) 45%, rgb(39,137,247) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(223,255,254) 0%, rgb(131,196,251) 45%, rgb(39,137,247) 100%);
+}
+.bg-fact {
+	background-image: url('../images/color-pink/12.png');
+}
+.bg-footer {
+    background-image: url('../images/color-pink/footer.png');
+}
+.bg-footer .form-group .input-group .input-group-addon button {
+  background: #d167c0;
+}
+
+/*********** home two  ***********/
+.home2-first-bg {
+  background-image: url(../images/color-pink/01.png);
+}
+.pricing-section-2 .pricing-wrap-1 .table-price {
+  background-image: -webkit-linear-gradient(bottom, rgb(243,109,181) 0%, rgb(189,105,215) 54%, rgb(135,100,249) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(243,109,181) 0%, rgb(189,105,215) 54%, rgb(135,100,249) 100%);
+  background-image: linear-gradient(to top, rgb(243,109,181) 0%, rgb(189,105,215) 54%, rgb(135,100,249) 100%);
+}
+.pricing-section-2 .pricing-wrap-2 .table-price {
+  background-image: -moz-linear-gradient( 0deg, rgb(117,216,248) 0%, rgb(98,192,250) 45%, rgb(79,167,251) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(117,216,248) 0%, rgb(98,192,250) 45%, rgb(79,167,251) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(117,216,248) 0%, rgb(98,192,250) 45%, rgb(79,167,251) 100%);
+}
+.pricing-section-2 .pricing-wrap .pricing-title {
+  border-color: #9955f7 !important;
+}
+.pricing-section-2 .pricing-wrap-2 .pricing-title {
+  border-color: #47a1f6 !important;
+}
+.footer-section .footer-search a {
+  background-image: -moz-linear-gradient( 0deg, rgb(254,204,231) 0%, rgb(195,152,240) 54%, rgb(135,100,249) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(254,204,231) 0%, rgb(195,152,240) 54%, rgb(135,100,249) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(254,204,231) 0%, rgb(195,152,240) 54%, rgb(135,100,249) 100%);
+}
+
+
+@media (min-width: 991px) {}
+  .navbar.navbar-default.navbar-fixed-top.headroom--not-top ul.nav.navbar-nav li.current:after {
+      background-image: -moz-linear-gradient( 0deg, rgb(254,204,231) 0%, rgb(195,152,240) 54%, rgb(135,100,249) 100%);
+      background-image: -webkit-linear-gradient( 0deg, rgb(254,204,231) 0%, rgb(195,152,240) 54%, rgb(135,100,249) 100%);
+      background-image: -ms-linear-gradient( 0deg, rgb(254,204,231) 0%, rgb(195,152,240) 54%, rgb(135,100,249) 100%);
+    }
+
+}
+
