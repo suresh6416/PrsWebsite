@@ -20,7 +20,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
       })
        .state('layout.home', {
            url: '/home',
-           templateUrl: 'app/views/home.html'
+           templateUrl: 'app/views/landing/promo.html'
 
        })
       .state('layout.softdev', {
