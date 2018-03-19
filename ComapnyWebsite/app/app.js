@@ -1,9 +1,21 @@
-﻿var app = angular.module("app", ["ui.router"]);
+﻿var app = angular.module("app", ['ui.router']);
 
 
-app.config(function ($stateProvider, $urlRouterProvider) {
+app.controller('HomeController', ['$rootScope', '$scope', function ($rootScope, $scope) {
+	$scope.$on('$includeContentLoaded', function () {
+		Layout.init(true); // init header 
+	});
+}]);
 
-    $urlRouterProvider.otherwise("/layout/home");
+
+app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
+
+	//$locationProvider.html5Mode({
+	//	enabled: true,
+	//	requireBase: false
+	//});
+
+	$urlRouterProvider.otherwise("/layout/home");
 
 
     $stateProvider
@@ -15,7 +27,8 @@ app.config(function ($stateProvider, $urlRouterProvider) {
       .state('layout', {
           abstract: true,
           url: '/layout',
-          templateUrl: 'app/views/welcom.html'
+          templateUrl: 'app/views/welcom.html',
+          controller: 'HomeController'
 
       })
        .state('layout.home', {
@@ -33,5 +46,9 @@ app.config(function ($stateProvider, $urlRouterProvider) {
      })
     
 })
+
+app.run(function ($location) {
+	$location.path('/');
+});
 
 
