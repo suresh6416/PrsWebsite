@@ -2131,8 +2131,8 @@ footer .copyright p {
   line-height: 1;
 }
 .gotop:hover {
-  border: solid 2px #e6400c;
-  color: #e6400c;
+  border: solid 2px mediumslateblue;
+  color:mediumslateblue ;
 }
 .gotop i {
   font-size: 18px;
