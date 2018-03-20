@@ -165,6 +165,30 @@ var Layout = function () {
 		})
 	}
 
+    /* go2top scroll */
+	var handleGo2Top = function () {
+	    var Go2TopOperation = function () {
+	        var CurrentWindowPosition = $(window).scrollTop();// current vertical position
+	        if (CurrentWindowPosition > 300) {
+	            $(".go2top").show();
+	        } else {
+	            $(".go2top").hide();
+	        }
+	    };
+
+	    Go2TopOperation();// call headerFix() when the page was loaded
+	    if (navigator.userAgent.match(/iPhone|iPad|iPod/i)) {
+	        $(window).bind("touchend touchcancel touchleave", function (e) {
+	            Go2TopOperation();
+	        });
+	    } else {
+	        $(window).scroll(function () {
+	            Go2TopOperation();
+	        });
+	    }
+
+	}
+
 
 	var handleMap = function () {
 		if ($('#map-canvas').length > 0) {
@@ -237,6 +261,7 @@ var Layout = function () {
 				handlewindlowScroll();
 				handleslider();
 				handleFeatureslider();
+				handleGo2Top();
 				swiper();
 				handleFactCounter();
 				playVideo();
@@ -259,4 +284,5 @@ var Layout = function () {
 		},
 	};
 
+	
 }();
