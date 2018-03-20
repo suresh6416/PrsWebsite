@@ -255,6 +255,9 @@
     <Content Include="scripts\angular-ui-router.min.js" />
     <Content Include="scripts\angular.js" />
     <Content Include="scripts\angular.min.js" />
+    <None Include="scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="scripts\jquery-2.1.1.js" />
+    <Content Include="scripts\jquery-2.1.1.min.js" />
     <Content Include="scripts\js\bootstrap.min.js" />
     <Content Include="scripts\js\custom.js" />
     <Content Include="scripts\js\headroom.min.js" />
@@ -277,6 +280,7 @@
     <Content Include="scripts\js\waypoint.js" />
     <Content Include="scripts\js\waypoints.min.js" />
     <Content Include="scripts\js\wow.min.js" />
+    <Content Include="scripts\nugetexample.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -316,6 +320,7 @@
     <None Include="Properties\PublishProfiles\PrsWebsite - Web Deploy %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\PrsWebsite - Web Deploy %284%29.pubxml" />
     <None Include="Properties\PublishProfiles\PrsWebsite - Web Deploy.pubxml" />
+    <Content Include="scripts\jquery-2.1.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

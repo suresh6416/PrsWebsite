@@ -2112,10 +2112,11 @@ footer .copyright p {
 }*/
 
 
-/* gotop */
-.gotop,
-.gotop:focus {
-  position: fixed;
+/* go2top */
+.go2top,
+.go2top:focus {
+  
+  position:fixed;
   right: 15px;
   bottom: 8px;
   color: #999;
@@ -2130,11 +2131,11 @@ footer .copyright p {
   font-size: 18px;
   line-height: 1;
 }
-.gotop:hover {
-  border: solid 2px #e6400c;
-  color: #e6400c;
+.go2top:hover {
+  border: solid 2px mediumslateblue;
+  color:mediumslateblue ;
 }
-.gotop i {
+.go2top i {
   font-size: 18px;
   line-height: 18px;
 }
