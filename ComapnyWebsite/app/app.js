@@ -44,6 +44,18 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
          url: '/WebDevelopment',
          templateUrl: 'app/views/services/webDev.html'
      })
+         .state('layout.aboutus', {
+             url: '/aboutus',
+             templateUrl: 'app/views/insights/aboutus.html'
+         })
+     .state('layout.clients', {
+         url: '/clients',
+         templateUrl: 'app/views/insights/clients.html'
+     })
+     .state('layout.projects', {
+         url: '/projects',
+         templateUrl: 'app/views/insights/projects.html'
+     })
     
 })
 
