@@ -35,12 +35,11 @@ var Layout = function () {
 
 	var handlewindlowScroll = function () {
 		$(window).scroll(function () {
-			console.log("in scroll 1");
 			var $scrollHeight = $(window).scrollTop();
 			if ($scrollHeight > 600) {
 				$('.navbar-default.fixed-nav').slideDown(400);
 			} else {
-				$('.navbar-default.fixed-nav').slideUp(100);
+				$('.navbar-default.fixed-nav').slideUp(300);
 			}
 		})
 	}
