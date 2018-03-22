@@ -45,7 +45,7 @@ h4,
 h5,
 h6 {
     /*font-family: 'Source Serif Pro', serif;*/
-    color: #414c5a;
+    /*color: #414c5a;*/
 }
 p {
     font-size: 14px;
@@ -1278,7 +1278,6 @@ button:focus {
 .bg-gradient {
     background-size: cover;
     background-position: center center;
-    background-image: url('../../images/bg/1.png');
 }
 .page-title .title {
     font-size: 60px;
